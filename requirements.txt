@@ -1,0 +1,28 @@
+# Core dependencies
+numpy>=1.19.0
+matplotlib>=3.3.0
+opencv-python>=4.5.0
+Pillow>=8.0.0
+
+# Habitat dependencies
+habitat-sim>=0.2.2
+# Use exact version for API compatibility
+# Installation from source may be required for latest features
+# See: https://github.com/facebookresearch/habitat-sim#installation
+
+# PyTorch for YOLO (adjust CUDA version as needed)
+torch>=1.9.0
+torchvision>=0.10.0
+
+# YOLO dependencies
+# Note: YOLOv5 will be installed automatically via torch.hub
+# For Darknet YOLO models (optional)
+# darknet>=2.0.0 
+
+# Visualization
+seaborn>=0.11.0
+imageio>=2.9.0
+
+# Utilities
+tqdm>=4.50.0
+pyyaml>=5.4.0
